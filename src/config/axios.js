@@ -94,7 +94,9 @@ export default {
           resolve(res.data);
         } else {
           let msg=res.data.msg?res.data.msg:res.msg;
-          store.dispatch('error', msg)
+          if(res.data.code || res.data.ret){
+            store.dispatch('error', msg)
+          }
           reject(res.data); 
         }
         queueCleaner(queueId); // 释放队列中的subscription

@@ -9,6 +9,7 @@
 </template>
 <script>
   export default {
+    name:'topTable',
   	props:["topTableData"],
     data() {
       return {
@@ -39,5 +40,7 @@
  	height:5px;
  }
  
-
+#topTable .el-tabs__header{
+  margin:0;
+}
 </style>

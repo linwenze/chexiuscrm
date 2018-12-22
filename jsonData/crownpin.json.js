@@ -31,7 +31,7 @@ const testData = {
         'icon': 'scrm-potential',
         'title': '潜客管理',
         'content': '线索一句话介绍描述',
-        'path': ''
+        'path': '/crownpin/management'
       }, {
         'icon': 'scrm-passengerflow',
         'title': '客流管理',

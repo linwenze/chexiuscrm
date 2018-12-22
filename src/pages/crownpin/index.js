@@ -3,3 +3,8 @@ export { default as CarPrice } from './carPrice/CarPrice.vue';
 export { default as Drive } from './drive/Drive.vue';
 export { default as BuyCars } from './buyCarPrice/buy.vue';
 export { default as Test } from './testDrive/Test.vue';
+export { default as Management } from './management/Management.vue';
+export { default as Managementmain } from './management/Managementmain.vue';
+export { default as Orderinfo } from './management/Orderinfo.vue';
+export { default as Ordergl } from './management/Ordergl.vue';
+export { default as Followinfo } from './management/Followinfo.vue';
